@@ -20,7 +20,6 @@
   "author": "moznion",
   "license": "MIT",
   "devDependencies": {
-    "aws_eb_message_severity": "0.0.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",

@@ -1,0 +1,11 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    "transform-class-properties",
+    "babel-plugin-espower"
+  ],
+  "ignore":[
+    "lib",
+    "node_modules"
+  ]
+}

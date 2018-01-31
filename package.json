@@ -1,6 +1,6 @@
 {
   "name": "aws_eb_message_severity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A classifier of AWS Elastic Beanstalk message by severity level",
   "main": "lib/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "AWS",
     "ElasticBeanstalk"
   ],
+  "repository": "https://github.com/moznion/aws_eb_message_severity.git",
   "author": "moznion",
   "license": "MIT",
   "devDependencies": {

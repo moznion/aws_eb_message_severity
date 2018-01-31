@@ -5,6 +5,38 @@ aws_eb_message_severity
 
 A classifier of AWS Elastic Beanstalk message by severity level.
 
+Synopsis
+--
+
+```javascript
+import SeverityClassifier from 'aws_eb_message_severity';
+
+const isDanger = SeverityClassifier.isDangerMessage('message');
+const isWarning = SeverityClassifier.isWarningMessage('message');
+```
+
+Methods
+--
+
+### `.isDangerMessage(msg: string): bool`
+
+Returns whether the given message is a danger or not.
+
+### `.isWarningMessage(msg: string): bool`
+
+Returns whether the given message is a warning or not.
+
+Properties
+--
+
+### `.dangerMessages`
+
+Returns a list of messages that are treated as the danger.
+
+### `.warningMessages`
+
+Returns a list of messages that are treated as the danger.
+
 Disclaimer
 --
 

@@ -8,7 +8,7 @@
     "test": "npm run build && mocha --require babel-core/register",
     "lint": "eslint src/",
     "check": "npm run test && npm run lint",
-    "prepublish": "npm run check"
+    "prepare": "npm run check"
   },
   "directories": {
     "test": "test/"

@@ -9,33 +9,26 @@ export default class EBMessageClassifier {
     'Failed to deploy configuration',
     'has a dependent object',
     'is not authorized to perform',
-    'Pending to Degraded',
     'Stack deletion failed',
     'Unsuccessful command execution',
     'You do not have permission',
     'Your quota allows for 0 more running instance',
-    'Info to Severe',
-    'No Data to Severe',
-    'Ok to Severe',
-    'Ok to Degraded',
-    'Info to Degraded',
-    'Degraded to Severe',
+    'to Severe.',
+    'to Degraded.',
   ];
 
   static warningMessages = [
     'aborted operation.',
     'to YELLOW',
     'Adding instance ',
-    'Degraded to Info',
     'Deleting SNS topic',
     'is currently running under desired capacity',
-    'Ok to Info',
-    'Ok to Warning',
-    'Info to No Data',
-    'Ok to No Data',
     'Pending Initialization',
     'Removed instance ',
     'Rollback of environment',
+    'to Info.',
+    'to Warning.',
+    'to No Data.',
   ];
 
   static _dangerMessagesRegexp = EBMessageClassifier._messages2regexp(EBMessageClassifier.dangerMessages);

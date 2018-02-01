@@ -1,7 +1,7 @@
 aws_eb_message_severity
 ==
 
-[![Build Status](https://travis-ci.org/moznion/aws_eb_message_severity.svg?branch=master)](https://travis-ci.org/moznion/aws_eb_message_severity) [![npm version](https://badge.fury.io/js/aws_eb_message_severity.svg)](https://badge.fury.io/js/aws_eb_message_severity)
+[![Build Status](https://travis-ci.org/moznion/aws_eb_message_severity.svg?branch=master)](https://travis-ci.org/moznion/aws_eb_message_severity) [![npm version](https://badge.fury.io/js/aws_eb_message_severity.svg)](https://badge.fury.io/js/aws_eb_message_severity) [![devDependencies Status](https://david-dm.org/moznion/aws_eb_message_severity/dev-status.svg)](https://david-dm.org/moznion/aws_eb_message_severity?type=dev)
 
 A classifier of AWS Elastic Beanstalk message by severity level.
 
